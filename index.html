@@ -1,15 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <script type="text/javascript">
-        document.getElementById("demo").onclick = function() {myFunction()};
-
-        function myFunction() {
-            document.getElementById("demo").innerHTML = Date();
-        }
-    </script>
-
-</head>
 
 <body>
     <h1>JavaScript Power</h1>
@@ -18,12 +8,13 @@
 
         <button id="demo">Click me!</button>
     </div>
+
     <div>
-        <button onclick="document.getElementById('myImage').src='light_on1600.png'">Turn on the light</button>
-        <img id="myImage" src="light_off1600.png" style="width:100px">
+        <button>Turn on the light</button>
 
-        <button onclick="document.getElementById('myImage').src='light_off1600.png'">Turn off the light</button>
+        <img id="myImage" src="images/light_off.png" style="width:100px">
+
+        <button>Turn off the light</button>
     </div>
-
 </body>
 </html>
